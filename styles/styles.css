@@ -16,21 +16,17 @@
 	-webkit-text-size-adjust: none;
 }
 
-header {
-	background-color:rgb(242, 120, 0);
-	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#666666), color-stop(.6,#333333)); */
-	color:white;
-	font-size: 36px;
-	font-style: italic;
-	height: 44px;
-	margin: 0;
-	padding-top: 14px;
-	text-align: center;
+img {
+	background-color:rgb(255, 255, 255);
+	border: solid;
+	border-radius: 50%;
+	width:400px
 }
 
 #content {
-    height: 600px;
-    width: 800px;
+	background-color:rgb(242, 120, 0);
+    /* height: 600px; */
+    /* width: 800px; */
     padding-right: 10px;
     padding-top: 50px;
     margin: auto;
@@ -39,12 +35,14 @@ header {
 	text-align: center;
 }
 
-footer {
-	background-color: rgb(211, 104, 0);
-	color: white;
-	font-size: small;
+#occupancy {
+	color:white;
+	font-size: 36px;
 	font-style: italic;
-	height: 20px;
-	padding:0.5em;
-	text-align: center;
+	padding-top: 14px;
+}
+
+#instruction {
+	font-size: 24px;
+	padding: 1em;
 }

@@ -7,22 +7,14 @@
     <link rel="manifest" href="/manifest.webmanifest">
   </head>
   <body>
-    <div id="wrapper">
-      <header>Check In POC</header>
-      <div id="content">
-        <form action="action_page.php" method="post">
-          <div class="imgcontainer">
-            <img src="images/AMT-Logo-Horizontal-txt-10-year.jpg" alt="AMT Logo" class="logo">
-          </div>
-        
-          <div class="container">
-            <label for="rfid"><b>Credential</b></label>
-            <input type="text" placeholder="Enter RFID tag" name="rfid" required>        
-            <button onclick="reportAttempt('clientIdHere')" type="submit">Record Attempt</button>
-          </div>
-        </form> 
+    <div id="content">
+      <div id="status">
+        <div class="denyIcon">
+          <img src="images/deny.svg" alt="Room at capacity" class="status_image">
+        </div>
+        <div id="occupancy">1 out of 2 spaces available in this space.</div>
+        <div id="instruction">Tag you fob to check in or out of this room.</div>
       </div>
-			<footer>Created June 20th, 2020</footer>
     </div>
     <script src="scripts/index.js"></script>
     <script>
