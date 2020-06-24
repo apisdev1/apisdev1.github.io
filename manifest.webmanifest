@@ -1,0 +1,14 @@
+{
+    "name":"Ace Check In Out",
+    "short-name":"Ace Check In",
+    "start_url": ".",
+    "display":"fullscreen",
+    "background_color":"#D86E06",
+    "theme_color":"#D86E06",
+    "description":"PWA running on Pi for occupany check-in.",
+    "icons": [{
+        "src":"images/AMT_LOGO.png",
+        "sizes":"960x960",
+        "type":"image/png"
+    }]
+}

@@ -1,0 +1,50 @@
+/* styles.css 
+ * rgb(227, 226, 226) // light grey
+ * rgb(167, 167, 166) // med grey
+ * rgb(219, 110, 6) // orange
+ * rgb(89, 79, 69) // brown
+ * rgb(129, 111, 92) // tan
+ * #222222; almost black
+ * #456BD9; app blue */
+ */
+
+ body {
+	color: #000000;	/* black */
+	font-family: Georgia, Times New Roman, Times, serif;
+	/* font-size: 12px; */
+	margin: 0px;
+	-webkit-text-size-adjust: none;
+}
+
+header {
+	background-color:rgb(242, 120, 0);
+	/* background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#000000), to(#666666), color-stop(.6,#333333)); */
+	color:white;
+	font-size: 36px;
+	font-style: italic;
+	height: 44px;
+	margin: 0;
+	padding-top: 14px;
+	text-align: center;
+}
+
+#content {
+    height: 600px;
+    width: 800px;
+    padding-right: 10px;
+    padding-top: 50px;
+    margin: auto;
+    /* position: absolute; */
+	top: 0; left: 0; bottom: 0; right: 0;
+	text-align: center;
+}
+
+footer {
+	background-color: rgb(211, 104, 0);
+	color: white;
+	font-size: small;
+	font-style: italic;
+	height: 20px;
+	padding:0.5em;
+	text-align: center;
+}
