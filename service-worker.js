@@ -3,7 +3,6 @@ var CACHE_NAME = 'poot-cache-v1';
 var urlsToCache = [
     '/',
     'images/AMT-LOGO.png',
-    'images/AMT-Logo-Horizontal-txt-10-year.jpg',
     '/scripts/index.js',
     '/styles/styles.css'
 ];

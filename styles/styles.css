@@ -1,48 +1,34 @@
-/* styles.css 
- * rgb(227, 226, 226) // light grey
- * rgb(167, 167, 166) // med grey
- * rgb(219, 110, 6) // orange
- * rgb(89, 79, 69) // brown
- * rgb(129, 111, 92) // tan
- * #222222; almost black
- * #456BD9; app blue */
- */
+/* styles.css */
 
  body {
 	color: #000000;	/* black */
 	font-family: Georgia, Times New Roman, Times, serif;
-	/* font-size: 12px; */
 	margin: 0px;
 	-webkit-text-size-adjust: none;
 }
 
-img {
-	background-color:rgb(255, 255, 255);
-	border: solid;
-	border-radius: 50%;
-	width:400px
-}
-
 #content {
 	background-color:rgb(242, 120, 0);
-    /* height: 600px; */
-    /* width: 800px; */
-    padding-right: 10px;
-    padding-top: 50px;
     margin: auto;
     /* position: absolute; */
 	top: 0; left: 0; bottom: 0; right: 0;
 	text-align: center;
 }
 
+#glyph {
+	color:white;
+	font-size: 600px;
+	margin-bottom: -144px;
+	margin-top: -36px;
+}
+
 #occupancy {
 	color:white;
-	font-size: 36px;
+	font-size: 48px;
 	font-style: italic;
-	padding-top: 14px;
 }
 
 #instruction {
-	font-size: 24px;
+	font-size: 36px;
 	padding: 1em;
 }
