@@ -9,26 +9,27 @@
 
 #content {
 	background-color:rgb(242, 120, 0);
-    margin: auto;
+	height: 480px;
     /* position: absolute; */
 	top: 0; left: 0; bottom: 0; right: 0;
 	text-align: center;
+	width: 800px;
 }
 
 #glyph {
 	color:white;
-	font-size: 600px;
-	margin-bottom: -72px;
+	font-size: 360px;
 	margin-top: -36px;
 }
 
 #occupancy {
 	color:white;
-	font-size: 48px;
+	font-size: 36px;
 	font-style: italic;
+	margin-top: -48px;
 }
 
 #instruction {
-	font-size: 36px;
+	font-size: 24px;
 	padding: 1em;
 }
